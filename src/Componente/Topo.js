@@ -7,8 +7,8 @@ export default function Topo() {
   return (
     <View style={estilos.topo}>
       <Image source={logo} style={estilos.imagem} />
-      <Text style={estilos.nome}>Olá Victor</Text>
-      <Text style={estilos.boasvindas}>Encontre os melhores Produtores</Text>
+      <Text style={estilos.boasvindas}>Olá Victor</Text>
+      <Text style={estilos.legenda}>Encontre os melhores Produtores</Text>
     </View>
   );
 }
@@ -22,12 +22,12 @@ const estilos = StyleSheet.create({
     width: 70,
     height: 28,
   },
-  nome: {
+  boasvindas: {
     fontSize: 26,
     fontWeight: 'bold',
-    marginTop: 10,
+    marginTop: 20,
   },
-  boasvindas: {
+  legenda: {
     fontSize: 16,
     lineHeigh: 6,
   },
