@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {View} from 'react-native';
+import Topo from '../../Componente/Topo';
 
-import Topo from '../../Componente/Topo'
-
-export default function Home(){
-  return(
-
-<Topo />
-  )
+export default function Home() {
+  return (
+    <View>
+      <Topo />
+    </View>
+  );
 }
-
-
