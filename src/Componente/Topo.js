@@ -14,11 +14,21 @@ export default function Topo() {
 }
 
 const estilos = StyleSheet.create({
-  topo: {},
-  imagem: {
-    width: 24,
-    height: 20,
+  topo: {
+    backgroundColor: '#f6f6f6',
+    padding: 16,
   },
-  nome: {},
-  boasvindas: {},
+  imagem: {
+    width: 70,
+    height: 28,
+  },
+  nome: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    marginTop: 10,
+  },
+  boasvindas: {
+    fontSize: 16,
+    lineHeigh: 6,
+  },
 });
