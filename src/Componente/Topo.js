@@ -6,7 +6,6 @@ import logo from '../assets/logo.png';
 import {carregaTopo} from '../servicos/carregaDados';
 
 class Topo extends React.Component {
-  
   state = {
     topo: {
       boasVindas: '',
